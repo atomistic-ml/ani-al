@@ -1,0 +1,63 @@
+sflparamsfile=rAl-7.0R_32-5.0A_a8-8.params
+ntwkStoreDir=networks/
+atomEnergyFile=sae_linfit.dat
+nmax=0
+tolr=100
+emult=5.0000000e-01
+eta=0.001
+tcrit=1.0000000e-05
+tmax=0
+tbtchsz=128
+vbtchsz=128
+gpuid=0
+ntwshr=0
+nkde=0
+energy=1
+force=1
+dipole=0
+charge=0
+fmult=0.01
+pbc=1
+cmult=1.0000000e+00
+runtype=ANNP_CREATE_HDNN_AND_TRAIN
+adptlrn=OFF
+decrate=9.0000000e-01
+moment=ADAM
+mu=9.9000000e-01
+feps=0.001
+cdweight=2.0
+boxx=16.0
+boxy=16.0
+boxz=16.0
+seed=4168710806
+network_setup {
+    inputsize=96;
+    atom_net Al $
+        layer [
+            nodes=96;
+            activation=9;
+            type=0;
+            l2norm=0;
+            l2valu=1.0000000e-06;
+        ]
+        layer [
+            nodes=96;
+            activation=9;
+            type=0;
+            l2norm=0;
+            l2valu=1.0000000e-06;
+        ]
+        layer [
+            nodes=64;
+            activation=9;
+            type=0;
+            l2norm=0;
+            l2valu=1.0000000e-06;
+        ]
+        layer [
+            nodes=1;
+            activation=6;
+            type=0;
+        ]
+    $
+}
