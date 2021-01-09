@@ -10,7 +10,7 @@ H5PY
 pyanitools.py
 	-Contains a class called 
 	 "anidataloader" for loading
-	 and parsing the ANI-1 data set.
+	 and parsing the ANI-Al data set.
 
 example_data_sampler.py
 	-Example of how to sample data
@@ -18,7 +18,7 @@ example_data_sampler.py
 
 ### Installation instructions
 
-1) export ANI-1_release/readers/lib/ to PYTHONPATH.
+1) export ani-al/readers/lib/ to PYTHONPATH.
 
 2) Run: example_data_sampler.py to test
 
