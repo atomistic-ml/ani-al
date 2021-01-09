@@ -24,6 +24,6 @@ example_data_sampler.py
 
 
 ### ANI-Al Model
-The model (located here within this repository: ani-al/model/model-Al-75/) can be used with the NeuroChem Binaries at one of the following locations:
+The model (located within this repository: ani-al/model/model-Al-75/) can be used with the NeuroChem Binaries at one of the following locations:
 https://github.com/isayev/ASE_ANI
 https://github.com/atomistic-ml/neurochem
