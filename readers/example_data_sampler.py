@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../readers/lib/')
+sys.path.append("lib/")
 
 import pyanitools as pya
 
